@@ -1,0 +1,38 @@
+.container {
+    padding: 20px 75px;
+    /* Reduced padding for top and bottom */
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    background-color: rgb(0, 0, 0);
+    min-height: 0vh;
+}
+
+.left {
+    flex-grow: 1;
+}
+
+.heading {
+    margin: 0;
+    color: #ffffff;
+    font-size: 1.8rem;
+    /* Reduced font size */
+    line-height: 3.8rem;
+    /* Reduced line height */
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.heading span {
+    background-clip: text;
+    background-image: linear-gradient(to right, #ffffff, #1369b9);
+    color: transparent;
+}
+
+.right img {
+    width: 50px;
+}
